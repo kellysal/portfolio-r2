@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kellysal.github.io/portfolio-r2",
-  "name": "portfolio-r3",
+  "homepage": ".",
+  "name": "portfolio-r2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

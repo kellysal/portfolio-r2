@@ -9,11 +9,11 @@ export default function Projects() {
                 <div className="flex flex-col w-full mb-20">
                     <CodeBracketSquareIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-slate-200">
-                        Apps I've Built
-          </h1>
+                        Past Work
+                    </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         Project highlights as a Software Engineer, QA Engineer and Web Developer.
-          </p>
+                    </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project) => (
@@ -28,7 +28,7 @@ export default function Projects() {
                                     src={project.image}
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-slate-800 bg-slate-900 opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-teal-300 mb-1">
+                                    <h2 className="tracking-widest text-xs title-font font-medium text-teal-300 mb-1 uppercase">
                                         {project.subtitle}
                                     </h2>
                                     <h1 className="title-font text-lg font-medium text-white mb-3">
