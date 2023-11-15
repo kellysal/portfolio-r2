@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 export default function App() {
   return (
-    <main className="text-slate-400 bg-gradient-to-tr from-slate-900 via-slate-800 to-slate-600 body-font">
+    <main className="text-slate-400 bg-slate-950 body-font">
       <About />
       <Projects />
       <Skills />

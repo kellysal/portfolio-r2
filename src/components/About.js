@@ -5,11 +5,11 @@ export default function About() {
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-slate-200">
+                    <h1 className="text-4xl sm:text-5xl font-bold tracking-wide text-slate-200">
                         Kelly Salamack
                     </h1>
-                    <h2 className="mt-3 text-2xl sm:text-1xl font-medium tracking-tight text-slate-200">Software Engineer</h2>
-                    <p className="mb-8 leading-relaxed">Experienced software engineer focused on building accessible, high-quality products for the web.</p>
+                    <h2 className="my-3 text-2xl sm:text-1xl font-medium tracking-wide text-slate-200">Software Engineer</h2>
+                    <p className="mb-8 leading-relaxed">Talented Full Stack Software Developer seeking new opportunities to utilize my programming, problem solving, creativity, and communication skills on impactful web applications.</p>
                     <div className="flex justify-center">
                         <a href="https://github.com/kellysal">
                             <svg className="h-6 w-6 fill-current m-2 hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">

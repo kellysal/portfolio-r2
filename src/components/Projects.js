@@ -9,11 +9,8 @@ export default function Projects() {
                 <div className="flex flex-col w-full mb-20">
                     <CodeBracketSquareIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-slate-200">
-                        Past Work
+                        Relevant Projects
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Project highlights as a Software Engineer, QA Engineer and Web Developer.
-                    </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project) => (
